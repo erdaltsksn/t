@@ -1,0 +1,22 @@
+name: Go (pkg.go.dev)
+
+on:
+  push:
+    tags:
+    - 'v*.*.*'
+
+jobs:
+  proxy:
+    name: Update docs on pkg.gov.dev
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Set up Go
+      uses: actions/setup-go@v2
+      with:
+        go-version: 1.15.5
+      id: go
+
+    - name: Get the Go package using Proxy
+      run: |
+        GOPROXY=https://proxy.golang.org GO111MODULE=on go get github.com/$GITHUB_REPOSITORY@${GITHUB_REF##*/}
