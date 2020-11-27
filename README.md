@@ -104,6 +104,8 @@ t.Translate("keyText", "Variable")
 message.NewPrinter(language.Chinese).Sprintf("keyText", "Variable-1", "var-2")
 ```
 
+Check out [examples](examples) directory for more.
+
 ## Contributing
 
 If you want to contribute to this project and make it better, your help is very
