@@ -16,7 +16,7 @@
 
 ## Requirements
 
-- [Golang](https://golang.org)
+- [Go](https://golang.org)
 
 ## Getting Started
 
