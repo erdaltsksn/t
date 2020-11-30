@@ -1,7 +1,7 @@
 # t (Go Translate)
 
 [![PkgGoDev](https://pkg.go.dev/badge/github.com/erdaltsksn/t)](https://pkg.go.dev/github.com/erdaltsksn/t)
-![Go](https://github.com/erdaltsksn/t/workflows/Go%20(build)/badge.svg)
+![Go (build)](https://github.com/erdaltsksn/t/workflows/Go%20(build)/badge.svg)
 [![Go Report Card](https://goreportcard.com/badge/github.com/erdaltsksn/t)](https://goreportcard.com/report/github.com/erdaltsksn/t)
 ![CodeQL](https://github.com/erdaltsksn/t/workflows/CodeQL/badge.svg)
 
